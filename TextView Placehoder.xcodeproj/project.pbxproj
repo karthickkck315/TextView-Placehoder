@@ -12,6 +12,7 @@
 		77B725792099C866005E51E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B725772099C866005E51E1 /* Main.storyboard */; };
 		77B7257B2099C866005E51E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B7257A2099C866005E51E1 /* Assets.xcassets */; };
 		77B7257E2099C866005E51E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B7257C2099C866005E51E1 /* LaunchScreen.storyboard */; };
+		77B725862099C875005E51E1 /* TextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B725852099C875005E51E1 /* TextViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		77B7257A2099C866005E51E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B7257D2099C866005E51E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B7257F2099C866005E51E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B725852099C875005E51E1 /* TextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		77B725722099C866005E51E1 /* TextView Placehoder */ = {
 			isa = PBXGroup;
 			children = (
+				77B725852099C875005E51E1 /* TextViewExtension.swift */,
 				77B725732099C866005E51E1 /* AppDelegate.swift */,
 				77B725752099C866005E51E1 /* ViewController.swift */,
 				77B725772099C866005E51E1 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B725862099C875005E51E1 /* TextViewExtension.swift in Sources */,
 				77B725762099C866005E51E1 /* ViewController.swift in Sources */,
 				77B725742099C866005E51E1 /* AppDelegate.swift in Sources */,
 			);
